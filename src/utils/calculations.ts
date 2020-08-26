@@ -1,17 +1,22 @@
 // To calculate the amount we need to send to each merchant, do a sum of their payments, minus our fees,
 // plus any applicable discount of our fees (if they meet the minimum number of transactions).
 
-export const calculateSum = (merchant: any) => {
+type Transaction = {
+  amount: number
+  fee: number
+}
+
+export const calculateSum = (merchant: any): Transaction => {
   return merchant?.transactions?.reduce(
-    (acc: any, item: any) => {
+    (acc: Transaction, item: Transaction) => {
       return {
-        fees: acc.fees + item.fee,
-        amount: acc.amount + item.amount,
+        fee: acc?.fee + item?.fee,
+        amount: acc?.amount + item?.amount,
       }
     },
     {
       amount: 0,
-      fees: 0,
+      fee: 0,
     }
   )
 }

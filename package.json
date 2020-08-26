@@ -46,7 +46,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "gen:svgs": "npx @svgr/cli -d src/assets/components src/assets/svg/ --typescript",
-    "reset": "rm -rf node_modules/ && yarn && yarn start"
+    "reset": "rm -rf node_modules/ && rm -rf src/assets/components/ && yarn && yarn start"
   },
   "browserslist": {
     "production": [
