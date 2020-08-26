@@ -1,0 +1,24 @@
+import * as React from "react";
+
+function SvgHtml(props: React.SVGProps<SVGSVGElement>) {
+  return (
+    <svg width={40} height={48} fill="none" {...props}>
+      <path
+        d="M1 4a3 3 0 013-3h19.93a4 4 0 012.83 1.17l11.07 11.07A4 4 0 0139 16.07V44a3 3 0 01-3 3H4a3 3 0 01-3-3V4z"
+        fill="#fff"
+        stroke="#0E4EFB"
+      />
+      <path
+        d="M11.32 32H9.55v-4H6.94v4H5.17v-9.24h1.77v3.79h2.61v-3.8h1.77V32zm8.5-7.79h-2.85V32h-1.8v-7.79h-2.8v-1.45h7.45v1.45zm3.2-1.45l.88 3.47 1-3.47h2.2V32h-1.63v-2.74l.08-4.32-1.21 4.01h-.89l-1.08-3.84.07 4.15V32h-1.63v-9.24h2.21zm7.53 7.8h4.33V32h-6.12v-9.24h1.79v7.8z"
+        fill="#0E4EFB"
+      />
+      <path
+        d="M37.59 13H30a3 3 0 01-3-3V2.41L37.59 13z"
+        fill="#fff"
+        stroke="#0E4EFB"
+      />
+    </svg>
+  );
+}
+
+export default SvgHtml;

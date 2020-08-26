@@ -1,0 +1,16 @@
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" 
+    xmlns="http://www.w3.org/2000/svg">
+    <rect opacity="0.1" width="72" height="72" rx="9" fill="#0E4EFB"/>
+    <rect x="15.5" y="21.5" width="41" height="29" rx="3" stroke="#0E4EFB" strokeWidth="3"/>
+    <path d="M35 44C35 40.6863 32.0899 38 28.5 38C24.9101 38 22 40.6863 22 44" stroke="#0E4EFB" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+    <path fillRule="evenodd" clipRule="evenodd" d="M28.5 34C30.433 34 32 32.433 32 30.5C32 28.567 30.433 27 28.5 27C26.567 27 25 28.567 25 30.5C25 32.433 26.567 34 28.5 34Z" stroke="#0E4EFB" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"/>
+    <rect x="39.75" y="33.75" width="10.5" height="1.5" rx="0.75" stroke="#0E4EFB" strokeWidth="1.5"/>
+    <mask id="path-6-inside-1" fill="white">
+        <path d="M39 28.5C39 27.6716 39.6716 27 40.5 27H45C45.8284 27 46.5 27.6716 46.5 28.5C46.5 29.3284 45.8284 30 45 30H40.5C39.6716 30 39 29.3284 39 28.5Z"/>
+    </mask>
+    <path d="M40.5 30H45V24H40.5V30ZM45 27H40.5V33H45V27ZM40.5 27C41.3284 27 42 27.6716 42 28.5H36C36 30.9853 38.0147 33 40.5 33V27ZM43.5 28.5C43.5 27.6716 44.1716 27 45 27V33C47.4853 33 49.5 30.9853 49.5 28.5H43.5ZM45 30C44.1716 30 43.5 29.3284 43.5 28.5H49.5C49.5 26.0147 47.4853 24 45 24V30ZM40.5 24C38.0147 24 36 26.0147 36 28.5H42C42 29.3284 41.3284 30 40.5 30V24Z" fill="#0E4EFB" mask="url(#path-6-inside-1)"/>
+    <mask id="path-8-inside-2" fill="white">
+        <path d="M39 40.5C39 39.6716 39.6716 39 40.5 39H49.5C50.3284 39 51 39.6716 51 40.5C51 41.3284 50.3284 42 49.5 42H40.5C39.6716 42 39 41.3284 39 40.5Z"/>
+    </mask>
+    <path d="M40.5 42H49.5V36H40.5V42ZM49.5 39H40.5V45H49.5V39ZM40.5 39C41.3284 39 42 39.6716 42 40.5H36C36 42.9853 38.0147 45 40.5 45V39ZM48 40.5C48 39.6716 48.6716 39 49.5 39V45C51.9853 45 54 42.9853 54 40.5H48ZM49.5 42C48.6716 42 48 41.3284 48 40.5H54C54 38.0147 51.9853 36 49.5 36V42ZM40.5 36C38.0147 36 36 38.0147 36 40.5H42C42 41.3284 41.3284 42 40.5 42V36Z" fill="#0E4EFB" mask="url(#path-8-inside-2)"/>
+</svg>
